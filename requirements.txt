@@ -1,0 +1,8 @@
+# ---- Required ----
+Pillow>=10.0.0        # image loading/saving (PNG/JPG/BMP/WEBP/TIFF)
+numpy>=1.24.0         # vectorized pixel/bit manipulation for LSB embedding
+pycryptodome>=3.19.0  # AES-256-CBC encryption + PBKDF2 key derivation (imports as 'Crypto')
+rich>=13.0.0          # banner, menus, panels
+
+# ---- Optional ----
+colorama>=0.4.6       # ANSI color fallback on terminals without truecolor support
