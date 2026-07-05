@@ -1,4 +1,4 @@
-# 👻 PHANTOM — Steganography Toolkit
+#  PHANTOM — Steganography Toolkit
 
 **PHANTOM** hides encrypted text messages or entire files inside ordinary-looking images using LSB (least-significant-bit) steganography. Every payload is compressed and AES-256 encrypted *before* a single bit touches the image — so even someone who suspects a picture is hiding something can't read it without the password.
 
